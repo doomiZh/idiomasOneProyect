@@ -1,5 +1,15 @@
 package pe.com.pi.idiomasone.service;
 
-public interface IdiomasService {
+import java.util.List;
 
+import pe.com.pi.idiomasone.model.Idiomas;
+
+
+public interface IdiomasService {
+	
+	List<Idiomas> obtenerIdiomas();
+	
+	Idiomas registrar(Idiomas idiomas);
+	
+	void eliminar(Long id);
 }

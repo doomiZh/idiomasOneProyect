@@ -1,5 +1,11 @@
 package pe.com.pi.idiomasone.repository;
 
-public interface IdiomasRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import pe.com.pi.idiomasone.model.Idiomas;
+
+public interface IdiomasRepository extends JpaRepository<Idiomas, Long>{
+	
+	
 
 }
