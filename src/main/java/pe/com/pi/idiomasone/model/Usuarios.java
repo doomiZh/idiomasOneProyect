@@ -1,5 +1,17 @@
 package pe.com.pi.idiomasone.model;
 
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+
+import lombok.Data;
+
 @Data
 @Entity
 @Table(name="tb_usuario")
@@ -19,7 +31,7 @@ public class Usuarios implements Serializable{
 	private String apellido;
 	
 	@NotEmpty
-	private String username;
+	private String usuario_name;
 	
 	@NotEmpty
 	private String contrasena;
