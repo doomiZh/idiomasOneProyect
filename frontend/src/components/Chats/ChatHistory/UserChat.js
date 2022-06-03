@@ -312,8 +312,10 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        I have to give a presentation on global warming on
-                        Friday, and I am so nervous.
+                        If that is the case, then I already have an outline. To
+                        make it easy for my audience to follow the presentation,
+                        I intend to post the outline on the board at all time
+                        during my speech.
                       </span>
                     </div>
                   </div>
@@ -329,10 +331,10 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        First of all, you need to understand the subject matter
-                        thoroughly. You need to know what is global warming,
-                        what causes global warming, and what people should do to
-                        abate the effects of global warming.
+                        If that is the case, then I already have an outline. To
+                        make it easy for my audience to follow the presentation,
+                        I intend to post the outline on the board at all time
+                        during my speech.
                       </span>
                     </div>
                   </div>
@@ -349,9 +351,10 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        I have done a lot of research on the subject, and I know
-                        I can answer any questions I will receive from the
-                        audience.
+                        If that is the case, then I already have an outline. To
+                        make it easy for my audience to follow the presentation,
+                        I intend to post the outline on the board at all time
+                        during my speech.
                       </span>
                     </div>
                   </div>
@@ -367,8 +370,10 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        I should talk about more precisely the sequence of my
-                        presentation?
+                        If that is the case, then I already have an outline. To
+                        make it easy for my audience to follow the presentation,
+                        I intend to post the outline on the board at all time
+                        during my speech.
                       </span>
                     </div>
                   </div>
@@ -384,7 +389,10 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        Yes, what you should present first, second and third…
+                        If that is the case, then I already have an outline. To
+                        make it easy for my audience to follow the presentation,
+                        I intend to post the outline on the board at all time
+                        during my speech.
                       </span>
                     </div>
                   </div>
@@ -539,9 +547,7 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        No, I have not thought about that. I better get some
-                        statistics from the Internet. I should not have any
-                        problems since the Internet has all kinds of data.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.
                       </span>
                     </div>
                   </div>
@@ -557,9 +563,7 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        Pictures will keep your audience from being bored. In
-                        order for you to succeed, you need to keep them
-                        interested and involved.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.
                       </span>
                     </div>
                   </div>
@@ -576,9 +580,7 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        You are absolutely right. I will take time to practice
-                        and to learn to relax and express myself really well.
-                        Wish me luck, Catherine!
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.
                       </span>
                     </div>
                   </div>
@@ -594,7 +596,7 @@ class UserChat extends Component {
                   <div className="message-wrapper">
                     <div className="message-content">
                       <span>
-                        I know you. You can do it. Good luck, Jennifer!
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.
                       </span>
                     </div>
                   </div>
@@ -603,7 +605,7 @@ class UserChat extends Component {
                       <img alt="" src={avatar6}></img>
                     </div>
                     <span className="message-date" ref={this.messagesEndRef}>
-                      Just now
+                      Recientemente
                     </span>
                     <MessageDropdown />
                   </div>

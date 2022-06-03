@@ -9,10 +9,8 @@ import { ThemeColor } from "../../Config/Config";
 class Chats extends Component {
   state = {
     mainVisible: false,
-    themeColor: Boolean(localStorage.getItem("theme"))
-      ? parseInt(localStorage.getItem("theme"))
-      : ThemeColor.Light,
-    isRTL: Boolean(localStorage.getItem("rtl")),
+    themeColor: 1,
+    isRTL: false,
   };
 
   // Load selected theme

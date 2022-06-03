@@ -5,18 +5,13 @@ import avatar3 from "../../../assets/media/avatar/3.png";
 import avatar4 from "../../../assets/media/avatar/4.png";
 import avatar5 from "../../../assets/media/avatar/5.png";
 import avatar6 from "../../../assets/media/avatar/6.png";
-import avatar7 from "../../../assets/media/avatar/7.png";
-import avatar8 from "../../../assets/media/avatar/8.png";
-
 import ChatAction from "../../ChatAction/ChatAction";
 import ChatFilter from "../../FilterDropdowns/ChatFilter";
-
 import { ReactComponent as UserGroupSvg } from "../../../assets/media/heroicons/outline/user-group.svg";
 import { ReactComponent as LockSvg } from "../../../assets/media/icons/lock.svg";
 import { ReactComponent as PhotoSvg } from "../../../assets/media/icons/photo.svg";
 import { ReactComponent as DocsSvg } from "../../../assets/media/icons/docs.svg";
 import { ReactComponent as MuteSvg } from "../../../assets/media/icons/mute.svg";
-import { ReactComponent as MissedCallSvg } from "../../../assets/media/icons/missedcall.svg";
 import {
   ChatFilterOptions,
   ProfileType,
@@ -34,41 +29,41 @@ class ChatList extends Component {
       {
         ChatUserId: "user1",
         to: "/inicio/user1",
-        name: "Catherine Richardson",
+        name: "Luis Bardales",
         profile: avatar2,
         profileType: ProfileType.Image,
         time: "Just now",
-        message: "I’m sorry, I didn’t catch that. Could you please repeat?",
+        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.",
         status: UserStatus.Online,
         filter: ChatFilterOptions.Friends,
       },
       {
         ChatUserId: "group1",
         to: "/inicio/group1",
-        name: "Themeforest Group",
+        name: "Oscar de los Santos",
         profile: <UserGroupSvg />,
         profileType: ProfileType.Svg,
         time: "10:20 pm",
         message:
-          "Jeny: That’s pretty common. I heard that a lot of people had the same experience.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.",
         endIcon: <LockSvg />,
         filter: ChatFilterOptions.Groups,
       },
       {
         to: "#",
-        name: "Eva Walker",
+        name: "Walter Arcani",
         profile: "EW",
         profileType: ProfileType.Text,
         time: "09:36 am",
         message:
-          "You’re kidding! I drive a motorcycle as well. What type of bike do you have?",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.",
         badge: 2,
         status: UserStatus.Offline,
         filter: ChatFilterOptions.Unread,
       },
       {
         to: "#",
-        name: "Christopher Garcia",
+        name: "Diego AC",
         time: "Yesterday",
         profile: avatar3,
         profileType: ProfileType.Image,
@@ -79,18 +74,18 @@ class ChatList extends Component {
       },
       {
         to: "#",
-        name: "Christina Turner",
+        name: "Leonardo",
         time: "31/05/20",
         profile: avatar4,
         profileType: ProfileType.Image,
         status: UserStatus.Online,
         message:
-          "I’m working hard in Maths, Physics and Chemistry. I have planning to appear in I.I.T. after XII.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ex vitae nibh aliquet auctor quis vel quam.",
         filter: ChatFilterOptions.Friends,
       },
       {
         to: "#",
-        name: "Tammy Martinez",
+        name: "Carlos",
         time: "24/04/20",
         profile: avatar5,
         profileType: ProfileType.Image,
@@ -101,7 +96,7 @@ class ChatList extends Component {
       },
       {
         to: "#",
-        name: "Bonnie Torres",
+        name: "Miguel",
         time: "20/04/20",
         profile: avatar6,
         profileType: ProfileType.Image,
@@ -109,28 +104,7 @@ class ChatList extends Component {
         message: "Catch you later! Bye-bye!",
         endIcon: <MuteSvg />,
         filter: ChatFilterOptions.Friends,
-      },
-      {
-        to: "#",
-        name: "Jacqueline James",
-        time: "15/02/20",
-        profile: avatar7,
-        profileType: ProfileType.Image,
-        status: UserStatus.Offline,
-        MessageSvg: <MissedCallSvg />,
-        message: "Missed call",
-        filter: ChatFilterOptions.Friends,
-      },
-      {
-        to: "#",
-        name: "Annie Richardson",
-        time: "26/12/19",
-        profile: avatar8,
-        profileType: ProfileType.Image,
-        status: UserStatus.Away,
-        message: "I think I have everything I need, thank you!",
-        filter: ChatFilterOptions.Archived,
-      },
+      }
     ],
     FilterChatList: [],
   };

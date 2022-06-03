@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import Routing from "./Routing/Routing";
-import { ThemeColor } from "./Config/Config";
 
 class App extends Component {
   state = {
-    themeColor: Boolean(localStorage.getItem("theme"))
-      ? parseInt(localStorage.getItem("theme"))
-      : ThemeColor.Light,
+    themeColor: 1,
   };
 
   render() {

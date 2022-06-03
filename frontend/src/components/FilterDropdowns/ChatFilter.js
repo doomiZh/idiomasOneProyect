@@ -11,11 +11,12 @@ const ChatFilter = (props) => {
   useEffect(() => {
     switch (props.selectedOption) {
       case ChatFilterOptions.AllChats:
-        setSelectedTitle("All Chats");
+        setSelectedTitle("Mis Chats");
         break;
       case ChatFilterOptions.Friends:
-        setSelectedTitle("Friends");
+        setSelectedTitle("Contactos");
         break;
+        /*
       case ChatFilterOptions.Groups:
         setSelectedTitle("Groups");
         break;
@@ -25,6 +26,7 @@ const ChatFilter = (props) => {
       case ChatFilterOptions.Archived:
         setSelectedTitle("Archived");
         break;
+        */
       default:
         break;
     }
@@ -81,7 +83,7 @@ const ChatFilter = (props) => {
           <input
             type="text"
             className="form-control search border-right-0 transparent-bg pr-0"
-            placeholder="Search users..."
+            placeholder="Buscar contactos..."
             value={props.search}
             onChange={props.handleSearch}
           ></input>

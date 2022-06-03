@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as AppIconSvg } from "../../assets/media/icons/appicon.svg";
 import { ReactComponent as ChatsSvg } from "../../assets/media/icons/chats.svg";
 import { ReactComponent as FriendsSvg } from "../../assets/media/icons/friends.svg";
 import { ReactComponent as AccountSvg } from "../../assets/media/icons/accounts.svg";
@@ -9,7 +8,7 @@ function NavBar(props) {
   return (
     <div className="navigation navbar navbar-light bg-primary">
       <Link className="d-none d-xl-block bg-light rounded p-1" to="/">
-        <AppIconSvg />
+        CIBER
       </Link>
       <ul
         className="nav nav-minimal flex-row flex-grow-1 justify-content-between flex-xl-column justify-content-xl-center"

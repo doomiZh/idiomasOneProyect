@@ -20,7 +20,7 @@ class StartConversation extends Component {
       <Modal show={true} scrollable={true} onHide={this.setModalShow} centered>
         <Modal.Header closeButton>
           <Modal.Title>
-            <h5>New Chat</h5>
+            <h5>Nuevo Chat</h5>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="p-0 hide-scrollbar">
